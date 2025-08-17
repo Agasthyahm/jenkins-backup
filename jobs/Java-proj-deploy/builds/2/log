@@ -1,0 +1,7 @@
+Started by user [8mha:////4HC7DLoMQJ/WWSvcp9/jiBfI3D8A3f0mZEowXp9gJnZzAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYu/dLi1CL9xKTkFAC2f0MavwAAAA==[0mAgasthya H M
+Running as SYSTEM
+Building remotely on [8mha:////4EU4t687Ws+R1LxQIJb1aUGUqYfiXT7a2jjNzMWq6Wf8AAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgYp/eT83ILSktQi/TygO410QUbqFhTlZ+kDAOmjCOTPAAAA[0mnode2-java-proj in workspace /home/ec2-user/jenkins/workspace/Java-proj-deploy
+[Java-proj-deploy] $ /bin/sh -xe /tmp/jenkins11319938212246534320.sh
++ cd /home/ec2-user/jenkins/workspace/Java-Proj_node/target
++ cp hello-world-war-1.0.0.war /opt/tomcat/webapps/
+Finished: SUCCESS

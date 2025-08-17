@@ -1,0 +1,68 @@
+Started by GitHub push by Agasthyahm
+Running as SYSTEM
+Building remotely on [8mha:////4EU4t687Ws+R1LxQIJb1aUGUqYfiXT7a2jjNzMWq6Wf8AAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgYp/eT83ILSktQi/TygO410QUbqFhTlZ+kDAOmjCOTPAAAA[0mnode2-java-proj in workspace /home/ec2-user/workspace/Java-Proj_node
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Agasthyahm/hello-world-war-java.git
+ > git init /home/ec2-user/workspace/Java-Proj_node # timeout=10
+Fetching upstream changes from https://github.com/Agasthyahm/hello-world-war-java.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.47.3'
+ > git fetch --tags --force --progress -- https://github.com/Agasthyahm/hello-world-war-java.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Agasthyahm/hello-world-war-java.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 5e9bdaa0330587b2d669517b043b99d9bab7ed78 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 5e9bdaa0330587b2d669517b043b99d9bab7ed78 # timeout=10
+Commit message: "Update .gitignore"
+First time build. Skipping changelog.
+[Java-Proj_node] $ /bin/sh -xe /tmp/jenkins12284276511429868945.sh
++ mvn clean install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.efsavage:hello-world-war >--------------------
+[INFO] Building Hello World Web Application Repository 1.0.0
+[INFO]   from pom.xml
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ hello-world-war ---
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ hello-world-war ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ec2-user/workspace/Java-Proj_node/src/main/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ hello-world-war ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ hello-world-war ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /home/ec2-user/workspace/Java-Proj_node/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.13.0:testCompile (default-testCompile) @ hello-world-war ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ hello-world-war ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- war:3.4.0:war (default-war) @ hello-world-war ---
+[INFO] Packaging webapp
+[INFO] Assembling webapp [hello-world-war] in [/home/ec2-user/workspace/Java-Proj_node/target/hello-world-war-1.0.0]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/home/ec2-user/workspace/Java-Proj_node/src/main/webapp]
+[INFO] Building war: /home/ec2-user/workspace/Java-Proj_node/target/hello-world-war-1.0.0.war
+[INFO] 
+[INFO] --- install:3.1.2:install (default-install) @ hello-world-war ---
+[INFO] Installing /home/ec2-user/workspace/Java-Proj_node/pom.xml to /home/ec2-user/.m2/repository/com/efsavage/hello-world-war/1.0.0/hello-world-war-1.0.0.pom
+[INFO] Installing /home/ec2-user/workspace/Java-Proj_node/target/hello-world-war-1.0.0.war to /home/ec2-user/.m2/repository/com/efsavage/hello-world-war/1.0.0/hello-world-war-1.0.0.war
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.388 s
+[INFO] Finished at: 2025-08-17T10:13:40Z
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

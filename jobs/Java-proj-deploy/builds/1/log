@@ -1,0 +1,10 @@
+Started by upstream project "[8mha:////4FSzp++L764g/ktf3trEv2W6ItFz0o+1LX+TftaQnG6GAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYR/az8JH0voDm6AUX5WfF5QMfqAwAbIr2oyQAAAA==[0mJava-Proj_node" build number [8mha:////4NYwf7Jk+eDOXodOxFdZpSfQU2++Y0D7+xz+nnU7HYmYAAAAnx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBlH9rPwkfS+gOboBRflZ8XlAx+qbAAApZAiMygAAAA==[0m4
+originally caused by:
+ Started by user [8mha:////4HC7DLoMQJ/WWSvcp9/jiBfI3D8A3f0mZEowXp9gJnZzAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYu/dLi1CL9xKTkFAC2f0MavwAAAA==[0mAgasthya H M
+Running as SYSTEM
+Building remotely on [8mha:////4EU4t687Ws+R1LxQIJb1aUGUqYfiXT7a2jjNzMWq6Wf8AAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgYp/eT83ILSktQi/TygO410QUbqFhTlZ+kDAOmjCOTPAAAA[0mnode2-java-proj in workspace /home/ec2-user/jenkins/workspace/Java-proj-deploy
+[Java-proj-deploy] $ /bin/sh -xe /tmp/jenkins12810707998811302534.sh
++ cd /home/ec2-user/jenkins/workspace/Java-Proj-node/target
+/tmp/jenkins12810707998811302534.sh: line 2: cd: /home/ec2-user/jenkins/workspace/Java-Proj-node/target: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

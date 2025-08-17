@@ -1,0 +1,29 @@
+Started by GitHub push by Agasthyahm
+Running as SYSTEM
+Building remotely on [8mha:////4AWbOL0Tv4ebhUn9HMhMvWJaiL/j5SfeCqO16wjiY5bcAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZx/eT83ILSktQi/TygOw11nXULivKz9AEPxVjizAAAAA==[0mnode1-C-proj in workspace /home/ec2-user/workspace/C-proj-node
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Agasthyahm/c_proj_node.git
+ > git init /home/ec2-user/workspace/C-proj-node # timeout=10
+Fetching upstream changes from https://github.com/Agasthyahm/c_proj_node.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.47.3'
+ > git fetch --tags --force --progress -- https://github.com/Agasthyahm/c_proj_node.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Agasthyahm/c_proj_node.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 432874ac4afced2e895bf64e7934c78a34c6ea8b (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 432874ac4afced2e895bf64e7934c78a34c6ea8b # timeout=10
+Commit message: "Update dumy_file"
+First time build. Skipping changelog.
+[C-proj-node] $ /bin/sh -xe /tmp/jenkins8343608085314656790.sh
++ make
+gcc -c main.c
+cc    -c -o big3.o big3.c
+gcc -c fact.c
+gcc -c rev.c
+gcc -o ABC.exe main.o big3.o fact.o rev.o
+Finished: SUCCESS

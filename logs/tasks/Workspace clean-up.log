@@ -1,0 +1,10 @@
+Started at Sun Aug 17 13:26:15 UTC 2025
+Checking C-proj-node
+Deleting /var/lib/jenkins/workspace/C-proj-node on Jenkins
+Checking c-proj-test-param-plugin
+Deleting /var/lib/jenkins/workspace/c-proj-test-param-plugin on Jenkins
+Checking Java-proj-deploy
+Deleting /var/lib/jenkins/workspace/Java-proj-deploy on Jenkins
+Checking Java-Proj_node
+Deleting /var/lib/jenkins/workspace/Java-Proj_node on Jenkins
+Finished at Sun Aug 17 13:26:15 UTC 2025. 6ms

@@ -1,0 +1,22 @@
+Started by user [8mha:////4HC7DLoMQJ/WWSvcp9/jiBfI3D8A3f0mZEowXp9gJnZzAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYu/dLi1CL9xKTkFAC2f0MavwAAAA==[0mAgasthya H M
+Running as SYSTEM
+Building remotely on [8mha:////4AWbOL0Tv4ebhUn9HMhMvWJaiL/j5SfeCqO16wjiY5bcAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZx/eT83ILSktQi/TygOw11nXULivKz9AEPxVjizAAAAA==[0mnode1-C-proj in workspace /home/ec2-user/jenkins/workspace/c-proj-test-param-plugin
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/ec2-user/jenkins/workspace/c-proj-test-param-plugin/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Agasthyahm/Assign_C_project.git # timeout=10
+Fetching upstream changes from https://github.com/Agasthyahm/Assign_C_project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.47.3'
+ > git fetch --tags --force --progress -- https://github.com/Agasthyahm/Assign_C_project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision 306056149424133437cf45ac73af1de4c0c35116 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 306056149424133437cf45ac73af1de4c0c35116 # timeout=10
+Commit message: "Added big3.sh"
+ > git rev-list --no-walk 306056149424133437cf45ac73af1de4c0c35116 # timeout=10
+[c-proj-test-param-plugin] $ /bin/sh -xe /tmp/jenkins258221281938350755.sh
++ bash big3.sh 0 0 0
+Numbers are equal
+Finished: SUCCESS

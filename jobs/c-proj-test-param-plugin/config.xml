@@ -1,22 +1,23 @@
 <?xml version='1.1' encoding='UTF-8'?>
 <project>
+  <actions/>
   <description></description>
   <keepDependencies>false</keepDependencies>
   <properties>
     <hudson.model.ParametersDefinitionProperty>
       <parameterDefinitions>
         <hudson.model.StringParameterDefinition>
-          <name>No.1</name>
+          <name>Num1</name>
           <defaultValue>0</defaultValue>
           <trim>true</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
-          <name>No.2</name>
+          <name>Num2</name>
           <defaultValue>0</defaultValue>
           <trim>true</trim>
         </hudson.model.StringParameterDefinition>
         <hudson.model.StringParameterDefinition>
-          <name>No.3</name>
+          <name>Num3</name>
           <defaultValue>0</defaultValue>
           <trim>true</trim>
         </hudson.model.StringParameterDefinition>
@@ -48,7 +49,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>bash big3.sh ${1} ${2} ${3}</command>
+      <command>bash big3.sh $Num1 $Num2 $Num3</command>
       <configuredLocalRules/>
     </hudson.tasks.Shell>
   </builders>

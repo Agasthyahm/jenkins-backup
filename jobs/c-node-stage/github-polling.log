@@ -1,13 +1,13 @@
 Started on Aug 19, 2025, 1:06:35 PM
 Started by event from 140.82.115.77 ⇒ http://13.53.216.142:8080/github-webhook/ on Tue Aug 19 13:06:35 UTC 2025
 Using strategy: Default
-[poll] Last Built Revision: Revision e74227d53780e92cea3e9119c737718f6a79e756 (refs/remotes/origin/main)
+[poll] Last Built Revision: Revision e74227d53780e92cea3e9119c737718f6a79e756 (refs/remotes/origin/stage)
 The recommended git tool is: NONE
 No credentials specified
  > git --version # timeout=10
  > git --version # 'git version 2.43.0'
  > git ls-remote -h -- https://github.com/Agasthyahm/c_proj_node.git # timeout=10
 Found 2 remote heads on https://github.com/Agasthyahm/c_proj_node.git
-[poll] Latest remote head revision on refs/heads/main is: e74227d53780e92cea3e9119c737718f6a79e756 - already built by 2
-Done. Took 0.35 sec
-No changes
+[poll] Latest remote head revision on refs/heads/stage is: dfa93276ea2c47412fcc500a893d4b4a9483bb20
+Done. Took 0.37 sec
+Changes found

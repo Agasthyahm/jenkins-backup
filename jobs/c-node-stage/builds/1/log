@@ -1,0 +1,29 @@
+Started by user [8mha:////4HC7DLoMQJ/WWSvcp9/jiBfI3D8A3f0mZEowXp9gJnZzAAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYu/dLi1CL9xKTkFAC2f0MavwAAAA==[0mAgasthya H M
+Running as SYSTEM
+Building remotely on [8mha:////4AWbOL0Tv4ebhUn9HMhMvWJaiL/j5SfeCqO16wjiY5bcAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZx/eT83ILSktQi/TygOw11nXULivKz9AEPxVjizAAAAA==[0mnode1-C-proj in workspace /home/ec2-user/jenkins/workspace/c-node-stage
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Agasthyahm/c_proj_node.git
+ > git init /home/ec2-user/jenkins/workspace/c-node-stage # timeout=10
+Fetching upstream changes from https://github.com/Agasthyahm/c_proj_node.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.47.3'
+ > git fetch --tags --force --progress -- https://github.com/Agasthyahm/c_proj_node.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Agasthyahm/c_proj_node.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/stage^{commit} # timeout=10
+Checking out Revision e74227d53780e92cea3e9119c737718f6a79e756 (refs/remotes/origin/stage)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e74227d53780e92cea3e9119c737718f6a79e756 # timeout=10
+Commit message: "Create dummy_file4"
+First time build. Skipping changelog.
+[c-node-stage] $ /bin/sh -xe /tmp/jenkins11438738121817442457.sh
++ make
+gcc -c main.c
+cc    -c -o big3.o big3.c
+gcc -c fact.c
+gcc -c rev.c
+gcc -o ABC.exe main.o big3.o fact.o rev.o
+Finished: SUCCESS

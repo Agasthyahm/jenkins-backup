@@ -1,0 +1,22 @@
+Started by GitHub push by Agasthyahm
+Running as SYSTEM
+Building remotely on [8mha:////4AWbOL0Tv4ebhUn9HMhMvWJaiL/j5SfeCqO16wjiY5bcAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgZx/eT83ILSktQi/TygOw11nXULivKz9AEPxVjizAAAAA==[0mnode1-C-proj in workspace /home/ec2-user/jenkins/workspace/c-node-stage
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/ec2-user/jenkins/workspace/c-node-stage/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Agasthyahm/c_proj_node.git # timeout=10
+Fetching upstream changes from https://github.com/Agasthyahm/c_proj_node.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.47.3'
+ > git fetch --tags --force --progress -- https://github.com/Agasthyahm/c_proj_node.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/stage^{commit} # timeout=10
+Checking out Revision dfa93276ea2c47412fcc500a893d4b4a9483bb20 (refs/remotes/origin/stage)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f dfa93276ea2c47412fcc500a893d4b4a9483bb20 # timeout=10
+Commit message: "Create test1"
+ > git rev-list --no-walk e74227d53780e92cea3e9119c737718f6a79e756 # timeout=10
+[c-node-stage] $ /bin/sh -xe /tmp/jenkins14257043914283625241.sh
++ make
+make: 'ABC.exe' is up to date.
+Finished: SUCCESS
